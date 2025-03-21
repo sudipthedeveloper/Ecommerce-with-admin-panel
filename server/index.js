@@ -33,7 +33,7 @@ app.get("/",(request,response)=>{
         message : "Server is running " + PORT
     })
 })
-
+console.log("hubjbjb")
 app.use('/api/user',userRouter)
 app.use("/api/category",categoryRouter)
 app.use("/api/file",uploadRouter)
